@@ -15,3 +15,8 @@ data/processed/
 # macOS or OS-generated
 .DS_Store
 Thumbs.db
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
