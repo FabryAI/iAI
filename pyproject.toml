@@ -1,0 +1,24 @@
+[project]
+name = "iai"
+version = "0.1.0"
+description = "Your AI assistant based on document-based knowledge"
+authors = [
+    {name = "FabrizioAI",email = "fabrizio.programmazione@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "langchain (>=0.3.27,<0.4.0)",
+    "chromadb (>=1.0.15,<2.0.0)",
+    "pymupdf (>=1.26.3,<2.0.0)",
+    "openai (>=1.98.0,<2.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "langchain-community (>=0.3.27,<0.4.0)",
+    "langchain-openai (>=0.3.28,<0.4.0)",
+    "sentence-transformers (>=5.0.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
